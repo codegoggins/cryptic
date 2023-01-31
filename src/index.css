@@ -9,4 +9,13 @@
 body,html{
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  background-color:hsl(228, 9%, 10%);
 }
+
+::-webkit-scrollbar { width: 10px; }
+
+::-webkit-scrollbar-track { background-color: hsl(220, 4%, 5%); }
+
+::-webkit-scrollbar-thumb { background-color: hsl(220, 5%, 20%); }
+
+::-webkit-scrollbar-thumb:hover { background-color: hsl(220, 5%, 30%); }

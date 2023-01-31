@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Home from "./pages/Home";
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      Hello
+      <Home/>
     </div>
   );
 }
