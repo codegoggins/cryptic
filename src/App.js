@@ -16,7 +16,7 @@ function App() {
      })
   },[]);
 
-  console.log(coins);
+  // console.log(coins);
 
   return (
     <div className="App">
